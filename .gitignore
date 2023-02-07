@@ -1,0 +1,11 @@
+# Ignore Data folder
+Data/
+
+# Ignore notebook side files
+notebooks/.ipynb_checkpoints
+
+# Ignore the Python cache files
+__pycache__/
+functions/__pycache__/
+
+venv/
