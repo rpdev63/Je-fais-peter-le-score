@@ -6,7 +6,8 @@
 
 1 ) Cloner le repo git :    
 
-  git clone https://github.com/rpdev63/Je-fais-peter-le-score.git
+  git clone https://github.com/rpdev63/Je-fais-peter-le-score.git  
+  
   cd Je-fais-peter-le-score/
 
 2 ) Créer un environnement virtuel 
