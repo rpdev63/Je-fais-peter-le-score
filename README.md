@@ -28,3 +28,7 @@ https://drive.google.com/drive/folders/1tTd4ifwekY6Uq9t8OB9vDmVjsyJLQgvp
 6 ) Lancer l'interface
 
   python main.py
+
+## Rapport
+
+https://docs.google.com/document/d/10Xpv0TmLcB15cKvF493iQjbudIgw9L8ti6q-Z-77LDs/edit
