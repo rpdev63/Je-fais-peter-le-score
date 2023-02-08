@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from functions.features import compute_features
 import time
 import seaborn as sns
-from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import confusion_matrix
 import pandas as pd
@@ -104,7 +104,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_log, y_log, test_size = 0.
 
 
 # Initialize the model
-model = ExtraTreesClassifier(bootstrap= False, criterion='entropy', max_depth= None, max_features= None, min_samples_split= 3, n_estimators= 300)
+model = HistGradientBoostingClassifier(learning_rate= 0.15, max_bins=64, max_depth= 8, max_iter= 600, min_samples_leaf= 4 )
 
 # Perform 5-fold cross validation and get the accuracy scores for each fold
 ts = time.time()
